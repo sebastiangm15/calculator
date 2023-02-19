@@ -1,0 +1,39 @@
+html{
+	font-family:"MV Boli";
+	align-content: center;
+	background:linear-gradient(red,orange);
+    		background-repeat:no-repeat;
+    		background-size: cover;
+    		background-position: center;
+    		background-attachment: fixed;
+
+}
+.all{
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	border-radius: 50px;
+}
+.all input{
+	width: 80px;
+	height: 80px;
+
+}
+form .ecran{
+	display: flex;
+	text-align:right;
+	font-size: 90px;
+
+}
+form .ecran input{
+	justify-content: flex-end;
+text-align:right;
+	font-size: 90px;
+	flex: 1;
+	
+}
+form .plus input{
+	width: 200px;
+}

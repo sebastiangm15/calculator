@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+			<head>
+	        <title>calculator</title>
+	          <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+	        <link rel="stylesheet" type="text/css" href="calculator.css">
+             
+			</head>
+	<body>
+				 <div align="center" class="all">
+	<form >
+         <div class="ecran">
+		<input type="text" name="ecran">
+		</div>
+		<div>
+     <input type="button" value="7" onclick="ecran.value += '7'">
+          <input type="button" value="8" onclick="ecran.value += '8'">
+     <input type="button" value="9" onclick="ecran.value += '9'">
+       <input type="button" value="/" onclick="ecran.value += '/'">
+  			<br>
+          <input type="button" value="4" onclick="ecran.value += '4'">
+          <input type="button" value="5" onclick="ecran.value += '5'">
+     <input type="button" value="6" onclick="ecran.value += '6'">
+      <input type="button" value="-" onclick="ecran.value += '-'">
+	<br>
+	     <div>
+		 <input type="button" value="1" onclick="ecran.value += '1'">
+          <input type="button" value="2" onclick="ecran.value += '2'">
+	  <input type="button" value="3" onclick="ecran.value += '3'">
+	  <input type="button" value="*" height=90 onclick="ecran.value += '*'">
+	</div>
+       <input type="button" value="AC" onclick="ecran.value = ''">
+          <input type="button" value="DEL" onclick="ecran.value= ecran.value.toString().slice(0,-1)">
+     <input type="button" value="0" onclick="ecran.value += '0'">
+       <input type="button" value="="onclick="ecran.value =eval(ecran.value)" >
+      <br>
+       <input type="button" value="0" onclick="ecran.value += '0'">
+          <input type="button" value="." onclick="ecran.value += '.'">
+     <input type="button" value="+" class="plus"
+     style="width:165px" onclick="ecran.value += '+'">
+       
+       <br>
+     </form>
+
+ 					</div>
+ 				<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>	
+ 				<br><br><br><br><br><br><br><br><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="sebastian-gilma-3465601a9" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ro.linkedin.com/in/sebastian-gilma-3465601a9?trk=profile-badge">Sebastian Gilma</a></div>
+              
+	</body>
+
+
+</html>
